@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> Hedded e Time </title>
+
+<style>
+  h2 {color:orange;}
+  h3 {color:green;}
+</style>
+
+<body>
+
+<h1>HEDDED e TIME</h1>
+
+<h2>Um Campo Oculto </h2>
+
+<form action="/action_page.php">
+  <label for="fname">Digite o seu nome:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> O campo oculto não é mostrado ao usuário, mas os dados são enviados quando o formulário é enviado.</p>
+
+<h3>O elemento tempo</h3>
+
+<p>Aberto das <time>08:00</time> às <time>18:00</time> todos os dias úteis.</p>
+
+<p>Eu tenho uma consulta ao médico <time datetime="2022-04-14 10:00">em uma Quinta-feira.</time>.</p>
+
+<p><b>Nota:</b>O elemento time não é renderizado como algo especial em nenhum dos principais navegadores.</p>
+
+</body>
+</html>
